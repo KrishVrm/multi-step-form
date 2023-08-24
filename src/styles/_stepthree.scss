@@ -1,0 +1,33 @@
+.add-ons {
+  label {
+    width: 100%;
+    border-radius: var(--Border-Radius);
+    background: none;
+    border: 1px solid var(--Light-gray);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.14s;
+
+    &:hover {
+      border-color: var(--Marine-blue);
+    }
+
+    .card-para {
+      color: var(--Cool-gray);
+      font-size: 14px;
+    }
+
+    .pricing {
+      margin-left: auto;
+      color: var(--Purplish-blue);
+    }
+  }
+
+  input {
+    border: 2px solid red;
+    width: auto;
+  }
+}
